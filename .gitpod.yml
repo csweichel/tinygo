@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - command: make gen-device
+  - command: go build
+    openMode: split-left
